@@ -17,7 +17,7 @@ Com uma ferramenta auxiliar, é possível confirmar o envio, retornando o status
 
 ### Criado por:
 - Basílio Lima de Queiroz Santos;
-- Fábio Lins de Oliveira;
+- Flávio Lins de Oliveira;
 - José Gabriel Coelho Oliveira;
 - Saulo Roberto Farias de Mesquita
 
