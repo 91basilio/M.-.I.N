@@ -171,7 +171,7 @@ Assim como também é possível enviar emails pelo método *POST* para usuários
 - Github: https://github.com/91basilio
 - Linkedin: https://www.linkedin.com/in/basilioqueiroz/
 
-| Fábio Lins: |
+| Flávio Lins: |
 | ------ |
 - Github: https://github.com/fllins
 - Linkedin: https://www.linkedin.com/in/fllins
