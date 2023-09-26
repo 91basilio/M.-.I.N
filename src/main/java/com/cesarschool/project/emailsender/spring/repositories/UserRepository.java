@@ -7,6 +7,8 @@ import org.springframework.data.repository.query.Param;
 
 import com.cesarschool.project.emailsender.spring.entities.User;
 
+
+
 public interface UserRepository extends JpaRepository<User, String>{
 	
 	User findByEmail(@Param("email") String email);
@@ -14,5 +16,7 @@ public interface UserRepository extends JpaRepository<User, String>{
 	User findByName(@Param("name") String name);
 	
 	List<User> findByOrganization(@Param("organization") String organization);
+
+	List<User> findByfunc(@Param("func") String func);
 	
 }

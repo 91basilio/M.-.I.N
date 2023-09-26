@@ -35,4 +35,15 @@ public class EmailController {
 		
 	}
 
+
+
+
+	
+	@PostMapping(value="/{id}/func={function}")
+	public ResponseEntity<GenericResponseDTO> sendMessageByfunc(@PathVariable(value="id") String idMessage,
+			@PathVariable(value="function") String func,  String organization) {
+		return new ResponseEntity<GenericResponseDTO>(service.sendMessageByfunc(idMessage, organization , func),
+				HttpStatus.OK);
+	}
+
 }
